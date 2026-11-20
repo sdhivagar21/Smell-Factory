@@ -3,13 +3,14 @@ SMELL FACTORY WEBSITE
 
 TO VIEW IT
   Double-click  index.html  (opens in Chrome / Edge / Firefox).
-  An internet connection is needed for product photos and live prices.
+  An internet connection is needed for product photos.
 
 TO PUT IT ONLINE
-  Netlify:  go to https://app.netlify.com/drop and drag this whole
-            "smellfactory-website" folder onto the page.
-  Other hosting (cPanel, Hostinger, GitHub Pages…): upload index.html.
+  GitHub Pages: Settings -> Pages -> Deploy from a branch -> main, / (root).
+  Netlify:  go to https://app.netlify.com/drop and drag this folder onto the page.
+  Other hosting (cPanel, Hostinger...): upload index.html.
 
 Everything (design, scripts, fonts, logo) is inside index.html, so it is
-the only file you need. Products, prices and offers are read live from
-your existing Smell Factory admin data.
+the only file you need. On its own it shows the catalogue built into the
+page and takes orders on WhatsApp. Live prices from the admin panel and
+online payment need the store server (the full smellfactory-store project).
